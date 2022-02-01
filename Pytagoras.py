@@ -1,5 +1,7 @@
 import math
+import os
 from textwrap import dedent
+import platform
 
 # CORES -----------------
 A   = "\x1b[38;5;220m" #|
@@ -7,6 +9,9 @@ A2  = "\x1b[38;5;12m"  #|
 B   = "\x1b[38;5;15m" #|
 RST = "\x1b[0m"        #|
 # CORES -----------------
+
+if platform.system() == "Windows":
+    os.system("color")
 
 def banner():
     print(dedent(f"""
