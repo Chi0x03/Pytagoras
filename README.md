@@ -6,4 +6,4 @@ Só uma piadinha besta.
 print("Sou um idiota :)")
 ```
 ---
-![exemplo](./img/exemplo.PNG)
+![exemplo](./img/exemplo.PNG "Exemplo no windows terminal")
