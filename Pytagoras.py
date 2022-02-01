@@ -22,10 +22,7 @@ def banner():
 def main():
     c1 = int(input(f"{A}Cateto 1{RST}: "))
     c2 = int(input(f"{A2}Cateto 2{RST}: "))
-    c1 **= 2
-    c2 **= 2
-    hipo2 = c1 + c2
-    hipo = int(math.sqrt(hipo2))
+    hipo = math.hypot(c1, c2)
     print(f"{B}Hipotenusa: {hipo}{RST}")
 
 banner()
